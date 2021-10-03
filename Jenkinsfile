@@ -42,6 +42,7 @@ pipeline {
       steps {
         echo 'Deploy to UAT (AWS)'
         echo 'Notify the UAT users'
+        jiraComment(issueKey: '  S04-83', body: 'Jenkins Completed Testing and about to start UAT deployment')
       }
     }
 
