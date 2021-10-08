@@ -1,7 +1,2 @@
 #!/bin/bash
-id 
-sudo -s <<EOF
-echo Now i am root
-id
-echo "yes!"
-EOF
+chmod 777 StopApp.sh
